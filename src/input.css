@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+
+
+
+
+body
+{
+font-style: italic;
+}
+
+
+
+.navigation a:hover
+{
+    text-decoration: underline;
+    color:red;
+    font-size: large;
+   
+}
+
+.top-content
+{
+    transform: translate(-50%,-50%)
+}
+
+.box
+{
+    overflow: hidden;
+}
+
+.box:hover img
+{
+    transform: translateY(-100%);
+     transition-property: Transform;
+    transition-duration: 1s;
+    transition-delay: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+.box img
+{
+   
+    transition-property: Transform;
+    transition-duration: 1s;
+    transition-delay: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.box:hover .image-content
+{
+    transform: translateY(0%);
+     transition-property: Transform;
+    transition-duration: 1s;
+    transition-delay: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.image-content
+{
+transform: translateY(100%);
+    transition-property: Transform;
+    transition-duration: 1s;
+    transition-delay: 0.4s;
+    transition-timing-function: ease-in-out;
+}
